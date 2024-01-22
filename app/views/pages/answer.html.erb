@@ -1,0 +1,12 @@
+<div class="container mt-5">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Your question:</h5>
+      <p class="card-text"><%= @question %></p>
+      <h5 class="card-title">Coach's answer:</h5>
+      <p class="card-text"><%= @answer %></p>
+    </div>
+  </div>
+
+  <%= link_to 'Ask another question', '/ask', class: "btn btn-success mt-3" %>
+</div>
